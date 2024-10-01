@@ -10,20 +10,25 @@
 body{
     margin: none;
     display: flex;
-    border: 1px solid red;
 }
 
 .footer{
     background-color: var(--cor-6);
-    width: 100.8%;
+    width: 101.1%;
     height: auto;
     margin-top: 5%;
+    display: flex;
+    font-size: 150%;
 }
 
 .container-um{
     display: block;
     font-family: 'Poppins', sans-serif;
-    margin-left: 7%;
+    margin-left: 18%;
+}
+
+.container-um img{
+    margin-bottom: -45px;
 }
 
 .container-um h3{
@@ -31,10 +36,11 @@ body{
 }
 
 .container-um div{
-    width: 35px;
+    width: 45px;
     height: 5px;
     border-radius: 3px;
     background-color: var(--cor-3);
+    margin-top: -20px;
 }
 
 .container-um p{
@@ -45,7 +51,9 @@ body{
 .container-dois{
     display: block;
     font-family: 'Poppins', sans-serif;
-    margin-left: 7%;
+    margin-left: 9%;
+    margin-top: 3.8%;
+    width: 20%;
 }
 
 .container-dois h3{
@@ -53,10 +61,11 @@ body{
 }
 
 .container-dois div{
-    width: 35px;
+    width: 45px;
     height: 5px;
     border-radius: 3px;
     background-color: var(--cor-3);
+    margin-top: -20px;
 }
 
 .container-dois ul{
@@ -78,7 +87,8 @@ body{
 .container-tres{
     display: block;
     font-family: 'Poppins', sans-serif;
-    margin-left: 7%;
+    margin-left: 9%;
+    margin-top: 3.8%;
 }
 
 .container-tres h3{
@@ -86,13 +96,15 @@ body{
 }
 
 .container-tres div{
-    width: 35px;
+    width: 45px;
     height: 5px;
     border-radius: 3px;
     background-color: var(--cor-3);
+    margin-top: -20px;
 }
 
 .container-tres p{
     color: var(--cor-4);
     font-weight: 400;
+    width: 50%;
 }
