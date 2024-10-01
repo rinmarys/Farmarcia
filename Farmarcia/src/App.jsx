@@ -6,7 +6,9 @@
 // criar algumas coisas pra mim.
 
 import './App.css'
+import Carrossel from './components/Carrossel'
 import Header from './components/Header'
+import HomePage from './components/HomePage'
 import Logo from './components/Logo'
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
 
     <div>
       <Header />
+    </div>
+
+    <div>
+      <HomePage />
     </div>
     </>
   )

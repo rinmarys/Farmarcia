@@ -10,7 +10,7 @@
 body {
     background-color: var(--cor-2);
 
-    width: 100vw;
+    width: 98vw;
 }
 
 .alinhamento-navbar{
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
 
-    margin-top: 1%;
+    margin-top: 0.1%;
     margin-right: 90px;
 }
 
@@ -49,36 +49,4 @@ body {
 
 .nav-bar a:hover{
     color: var(--cor-4);
-}
-
-.button-cadastrar{
-    background-color: var(--cor-2);
-    border: 1px solid var(--cor-1);
-    border-radius: 10px;
-    height: 30px;
-    width: 100px;
-    font-weight: 550;
-    color: var(--cor-4);
-}
-
-.button-login{
-    background-color: var(--cor-2);
-    border: 1px solid var(--cor-1);
-    border-radius: 10px;
-    height: 30px;
-    width: 100px;
-    font-weight: 550;
-    color: var(--cor-4);
-}
-
-.button-cadastrar:hover{
-    background-color: #ef97a4;
-    color: var(--cor-2);
-    transition: 300ms;
-}
-
-.button-login:hover{
-    background-color: #ef97a4;
-    color: var(--cor-2);
-    transition: 300ms;
 }

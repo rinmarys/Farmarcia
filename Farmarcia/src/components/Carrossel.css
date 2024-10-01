@@ -1,0 +1,57 @@
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+.carrossel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button-carrossel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    gap: 77%;
+}
+
+.button-carrossel button{
+    width: 35px;
+    height: 30px;
+    background-color: var(--cor-5);
+    color: var(--cor-4);
+    border: none;
+    border-radius: 5px;
+}
+
+.button-carrossel button:hover{
+    background-color: var(--cor-6);
+    color: var(--cor-1);
+    cursor: pointer;
+}
+

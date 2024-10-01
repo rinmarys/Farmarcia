@@ -1,0 +1,128 @@
+:root{
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+    --cor-5: #e6e6e6;
+    --cor-6: #ef97a4;
+}
+
+body{
+    margin: 0;
+}
+
+.body-homePage{
+    display: block;
+    margin-top: 3%;
+}
+
+.body-ladingPage{
+    display: flex;
+    margin-top: 3%;
+}
+
+.texto-ladingPage{
+    width: fit-content;
+    margin-left: 7%;
+    font-size: 130%;
+    margin-top: 3%;
+}
+
+.texto-ladingPage h1{
+    color: var(--cor-4);
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto-ladingPage p{
+    color: var(--cor-1);
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    margin-top: 4%;
+    font-size: 105%;
+}
+
+.img-ladingPage{
+    height: auto;
+    width: fit-content;
+    margin-left: 3%;
+    margin-right: 7%;
+}
+
+.img-ladingPage img{
+    width: 110%;
+    height: auto;
+}
+
+.line{
+    width: 10%;
+    height: 1.5%;
+    background-color: var(--cor-6);
+    border-radius: 2px;
+    margin-top: -1%;
+}
+
+.button-alinhamento-ladingPage{
+    width: fit-content;
+    height: 8%;
+    display: flex;
+    gap: 15px;
+}
+
+.button-cadastrar{
+    background-color: var(--cor-3);
+    border: 1px solid var(--cor-3);
+    border-radius: 15px;
+    height: 40px;
+    width: 160px;
+    font-weight: 550;
+    color: var(--cor-2);
+}
+
+.button-login{
+    background-color: var(--cor-2);
+    border: 1px solid var(--cor-1);
+    border-radius: 15px;
+    height: 40px;
+    width: 160px;
+    font-weight: 550;
+    color: var(--cor-4);
+}
+
+.button-cadastrar:hover{
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    transition: 300ms;
+}
+
+.button-login:hover{
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+    transition: 300ms;
+}
+
+.body-secaoFestiva{
+    display: flex;
+    margin-top: 4%;
+}
+
+.carrossel-alinhamento{
+    margin-left: 7%;
+}
+
+.texto-secaoFestiva {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.texto-secaoFestiva h1{
+    font-size: 185%;
+    color: var(--cor-4);
+}
+
+.texto-secaoFestiva p{
+    font-size: 127%;
+    color: var(--cor-1);
+    width: 85%;
+}
