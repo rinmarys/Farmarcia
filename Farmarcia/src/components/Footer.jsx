@@ -10,7 +10,7 @@ function Footer() {
                 <div className='line'></div>
 
                 <p>(31) 99876-5432 <br />
-                    OncoMed@gmail.com</p>
+                    fermarcia@gmail.com</p>
 
                 <h3>WhatsApp</h3>
                 <div className='line'></div>
