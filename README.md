@@ -1,5 +1,5 @@
 # Farmarcia
 Site desenvolvido para a grande inauguração do maior empreendimento do ramo farmárcia
 
-# Site da Farmarcia
+# Front-End da Farmarcia
 https://inauguracao-farmarcia-senai.vercel.app/
